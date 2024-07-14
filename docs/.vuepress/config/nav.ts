@@ -44,11 +44,6 @@ export default <Array<NavItem>>[
   },
   {
     text: "Java后端",
-    items: [
-      {
-        text: "测试目录",
-        link: "/test/",
-      }
-    ],
+    link: "/java/"
   }
 ];

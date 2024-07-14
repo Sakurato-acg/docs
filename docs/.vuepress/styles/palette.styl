@@ -73,7 +73,7 @@
 * {
   font-family: "LXGW WenKai Screen", sans-serif;
 }
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   background-color: #49b1f5!important;
   background-image: -webkit-linear-gradient(
     45deg,
@@ -97,13 +97,75 @@
   border-radius: 2em  !important; 
 }
 
- blockquote {
+blockquote {
   border-color: #6f9fc7;
   border-radius: 0.25em;
   background-color: #ecf1f5;
-  margin: 0 0 1em;
+  margin: 1em 0;
   line-height: 1.8;
   background: #d7eaf5f7;
   padding: 1em;
   border-left: 5px #3498db solid;
 }
+strong{
+  font-size: larger;
+  text-decoration-line: underline
+}
+
+.theme-vdoing-content:not(.custom) > h1, 
+.theme-vdoing-content:not(.custom) > h2, 
+.theme-vdoing-content:not(.custom) > h3,
+.theme-vdoing-content:not(.custom) > h4,
+.theme-vdoing-content:not(.custom) > h5,
+.theme-vdoing-content:not(.custom) > h6 {
+    margin-top: -4.2rem;
+    margin-bottom: 2.1rem;
+}
+.right-menu-item.level2 >a
+  font-weight: bolder
+.sidebar-sub-header.level2 >a
+  font-weight: bolder
+.sidebar .sidebar-sub-headers .level4 {
+    padding-left: 1.2rem;
+}
+.sidebar .sidebar-sub-headers .level5 {
+    padding-left: 2.4rem;
+}
+// ——————————————————————————————————— 标题等级提示 ———————————————————————————————————
+// H1 → H6 标题等级提示符号
+@font-face 
+    font-family  "remixicon";
+    src          local("./font/remixicon.woff2") format("truetype");
+    font-display swap;
+
+h1,h2,h3,h4,h5,h6
+  position relative
+  >a
+    display none
+// h1,h2,h3,h4,h5,h6>a    
+
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before
+  font-family "remixicon";
+  font-size 12px !important;
+  display inline-block;
+  color #999 !important;
+  position absolute;
+  right calc(100% + 10px);
+  bottom 0;
+  border none;
+  padding 0;
+  letter-spacing 1px;
+  top 50%;
+  transform translate(0, 60%);
+  line-height 1;
+
+h2::before 
+  content "H2";
+h3::before 
+  content "H3";
+h4::before 
+  content "H4";
+h5::before 
+  content "H5";
+h6::before 
+  content "H6";
