@@ -31,12 +31,12 @@ export default <VdoingThemeConfig>{
   //   '图标地址2'
   // ],
   // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
-  // rightMenuBar: false, // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
+  rightMenuBar: false, // 是否显示右侧文章大纲栏，默认true (屏宽小于1300px下无论如何都不显示)
   // sidebarOpen: false, // 初始状态是否打开左侧边栏，默认true
-  // pageButton: false, // 是否显示快捷翻页按钮，默认true
+  pageButton: false, // 是否显示快捷翻页按钮，默认true
 
   sidebarOpen: true, // 初始状态是否打开侧边栏，默认true
-  sidebar: { mode: "structuring", collapsable: true }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
+  sidebar: { mode: "structuring", collapsable: false }, // 侧边栏  'structuring' | { mode: 'structuring', collapsable: Boolean} | 'auto' | 自定义
 
   updateBar: {
     // 最近更新栏

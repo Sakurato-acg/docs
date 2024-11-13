@@ -47,6 +47,10 @@ export default <Array<NavItem>>[
     link: "/java/"
   },
   {
+    text: "算法",
+    link: "/algorithm/"
+  },   
+  {
     text: "软件测试",
     link: "/softTest/"
   }
