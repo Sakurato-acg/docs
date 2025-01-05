@@ -1,0 +1,18 @@
+{
+  "theme": "moonstone",
+  "cssTheme": "Blue Topaz",
+  "baseFontSizeAction": true,
+  "baseFontSize": 17,
+  "nativeMenus": false,
+  "textFontFamily": "霞鹜文楷",
+  "accentColor": "",
+  "enabledCssSnippets": [
+    "【图标】预览网址加图标 - External Link Icons",
+    "【图标】iconfont",
+    "【图标】checkbox",
+    "【自定义】表格样式TableStyles",
+    "【自定义】多彩进度条",
+    "custom-admonitions.c9c6cb"
+  ],
+  "monospaceFontFamily": "JetBrains Mono"
+}
