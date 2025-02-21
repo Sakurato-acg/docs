@@ -1,8 +1,8 @@
 {
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "Blue Topaz",
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
+  "baseFontSize": 20,
   "nativeMenus": false,
   "textFontFamily": "霞鹜文楷",
   "accentColor": "",
@@ -14,5 +14,6 @@
     "【自定义】多彩进度条",
     "custom-admonitions.c9c6cb"
   ],
-  "monospaceFontFamily": "JetBrains Mono"
+  "monospaceFontFamily": "JetBrains Mono",
+  "showRibbon": true
 }
