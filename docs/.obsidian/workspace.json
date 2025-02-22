@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "050.算法/0010.leetcode/0010.leetcode.md",
+                "file": "040.java后端/0040.中间件/0010.dubbo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0010.leetcode"
+              "title": "0010.dubbo"
             }
           }
         ],
@@ -153,7 +153,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": true,
+                "searchQuery": "synchronized"
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -176,8 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377,
-    "collapsed": true
+    "width": 377
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -191,6 +192,13 @@
   },
   "active": "053683ca358122a8",
   "lastOpenFiles": [
+    "040.java后端/index.md",
+    "040.java后端/0030.实用技能/0010.skywalking.md",
+    "040.java后端/0020.juc/picture/image-20240720195151536.png",
+    "040.java后端/0020.juc/0010.juc.md",
+    "040.java后端/0020.juc/0020.test.md",
+    "050.算法/0010.leetcode/0010.leetcode.md",
+    "synchronized.md",
     "_FileOrganizer2000/Templates/meeting_note.md",
     "_FileOrganizer2000/Backups",
     "_FileOrganizer2000/Fabric",
@@ -201,7 +209,6 @@
     "_FileOrganizer2000/Inbox",
     "_FileOrganizer2000",
     "050.算法/0020.动态规划/0010.笔记.md",
-    "050.算法/0010.leetcode/0010.leetcode.md",
     "040.java后端/0010.面试相关/0010.java八股文.md",
     "Pasted image 20250105003718.png",
     "040.java后端/0010.面试相关/picture/image-20230517133834964.png",
