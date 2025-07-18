@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1f1b944147eb8f19",
+        "id": "35f7fabfe089fb23",
         "type": "tabs",
         "children": [
           {
-            "id": "08e5d5ca0b516d6e",
+            "id": "3d30cfad292e3786",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "040.java后端/0010.面试相关/0010.java八股文.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "0010.java八股文"
             }
           }
         ]
@@ -79,8 +83,24 @@
               "icon": "lines-of-text",
               "title": "Quiet Outline"
             }
+          },
+          {
+            "id": "b6ba13fc5d3d1e42",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "040.java后端/0010.面试相关/0010.java八股文.md",
+                "followCursor": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "0010.java八股文 的大纲"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -141,18 +161,6 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
-          },
-          {
-            "id": "b6ba13fc5d3d1e42",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "040.java后端/0010.面试相关/0010.java八股文.md"
-              },
-              "icon": "lucide-list",
-              "title": "0010.java八股文 的大纲"
-            }
           }
         ],
         "currentTab": 2
@@ -171,12 +179,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "08e5d5ca0b516d6e",
+  "active": "b6ba13fc5d3d1e42",
   "lastOpenFiles": [
+    "040.java后端/0030.实用技能/0010.skywalking.md",
     "040.java后端/0010.面试相关/0010.java八股文.md",
     "040.java后端/0040.中间件/0010.dubbo.md",
     "040.java后端/index.md",
-    "040.java后端/0030.实用技能/0010.skywalking.md",
     "040.java后端/0020.juc/picture/image-20240720195151536.png",
     "040.java后端/0020.juc/0010.juc.md",
     "040.java后端/0020.juc/0020.test.md",
