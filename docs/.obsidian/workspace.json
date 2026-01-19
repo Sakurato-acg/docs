@@ -91,7 +91,7 @@
               "type": "outline",
               "state": {
                 "file": "040.java后端/0010.面试相关/0010.java八股文.md",
-                "followCursor": true,
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -156,7 +156,7 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "synchronized"
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "标签"
@@ -167,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377
+    "width": 308.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,7 +179,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "b6ba13fc5d3d1e42",
+  "active": "26db791a5bf99f38",
   "lastOpenFiles": [
     "040.java后端/0030.实用技能/0010.skywalking.md",
     "040.java后端/0010.面试相关/0010.java八股文.md",
